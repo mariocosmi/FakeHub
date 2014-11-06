@@ -8,7 +8,7 @@ namespace OwinSelfhostSample {
 		[HttpPost]
 		[Route("~/plant")]
 		public void Post([FromBody]PlantUpdate plant) {
-			Console.WriteLine("aggiornato impianto " + plant.Plant.Descr);
+			Console.WriteLine("aggiornato impianto " + plant.Plant.Address);
 		}
 	}
 }

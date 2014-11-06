@@ -19,7 +19,8 @@ namespace FakeHub {
 
 	public class Plant {
 		public int Id { get; set; }
-		public string Descr { get; set; }
+		public string Name { get; set; }
+		public string Address { get; set; }
 		public string ThumbnailUrl { get; set; }
 		public int X { get; set; }
 		public int Y { get; set; }
